@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="" >
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="Pardot Website 検証用"/>
+        <title>Pardot Website 検証🌏</title>
+    </head>
+    <body>
+        ページアクション設定対象ページ<br /><br /><br />
+
+        <form action="https://go.pardot.com/l/" method="post">
+  <div class="container">
+    <div class="head">
+      <h2>Say Hello</h2>
+    </div>
+    <input type="text" name="lastname" placeholder="Last Name" /><br />
+    <input type="text" name="firstname" placeholder="First Name" /><br />
+    <input  type="email" name="email" placeholder="Email" required="required" /><br />
+    <input type="text" name="company" placeholder="Company" /><br />
+    <textarea type="textarea" name="message" placeholder="Message"></textarea><br />
+    <div class="message">Message Sent</div>
+    <button id="submit" type="submit">
+      Send!
+    </button>
+  </div>
+</form>
+
+        <script type='text/javascript'>
+
+piAId = '983672';
+
+piCId = '111634';
+
+piHostname = 'pardot.t-rex.cf';
+
+(function() {
+
+function async_load(){
+
+var s = document.createElement('script'); s.type = 'text/javascript';
+
+s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
+
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+
+}
+
+if(window.attachEvent) { window.attachEvent('onload', async_load); }
+
+else { window.addEventListener('load', async_load, false); }
+
+})();
+
+</script>
+        
+    </body>
+</html>
