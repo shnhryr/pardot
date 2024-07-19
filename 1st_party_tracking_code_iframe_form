@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <base href="" >
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="Pardot Website 検証用"/>
+        <title>3rd_party_tracking_code</title>
+    </head>
+    <body>
+        Hello World：1st_party_tracking_code：iframe設置ページ<br />
+　　　　　　　　　　　　　　　⭐️site.t-rex.cf domain⭐️　<br />
+　　　　　　　　　　　　　　　　https://site.t-rex.cf/1st_party_tracking_code_iframe_form　<br />
+
+        <iframe src="https://www.site.t-rex.cf/l/982672/2024-07-18/fjvn4x" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+
+<script type='text/javascript'>
+piAId = '983672';
+piCId = '';
+piHostname = 'www.site.t-rex.cf';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+    </body>
+</html>
