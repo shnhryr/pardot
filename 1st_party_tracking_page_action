@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <base href="" >
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="Pardot Website 検証用"/>
+        <title>1st_party_tracking_page_action</title>
+    </head>
+    <body>
+        Hello World： 🐭1st_party_tracking_page_action🐭　　<br /><br /><br />
+
+         <a href="https://site.t-rex.cf/1st_party_tracking_page_action">https://site.t-rex.cf/1st_party_tracking_page_action</a>
+
+<script type='text/javascript'>
+piAId = '983672';
+piCId = '';
+piHostname = 'www.site.t-rex.cf';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+    </body>
+</html>
