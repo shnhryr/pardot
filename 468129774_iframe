@@ -1,16 +1,33 @@
-<html>
-    <head>
-        <base href="" >
-        <meta charset="utf-8"/>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="description" content="Pardot Website 検証用"/>
-        <title>468129774（iframe　スクロールバー）</title>
-    </head>
-    <body>
-        Hello World：468129774（iframe　スクロールバー）<br />
-　　　　　　　　　　　　　　　468129774（iframe　スクロールバー）　<br />
 
-<iframe src="https://www.site.t-rex.cf/l/982672/2024-08-26/fk6f67" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+
+<head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PFWG3Z4X');</script>
+<!-- End Google Tag Manager -->  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- IEの互換表示無効 -->
+  <meta name="format-detection" content="telephone=no">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"> <!-- Skypeによる電話番号置換無効 -->
+  <meta name="robots" content="INDEX,FOLLOW">
+  <meta name="description" content="IRTVの導入をご検討されているみなさまへ、資料の無料ダウンロードをおススメしております。こちらのフォームよりお申し込みください。">
+  <meta name="keywords" content="IR,IPO,株価,予想,日経平均,ドル,円,ニュース,適時開示,経済指標,動画配信">
+  <title>資料ダウンロード｜企業価値が伝わる、SNS時代のIR活動なら</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Start CSS -->
+  <link href="../css/sanitize.css" rel="stylesheet" type="text/css">
+  <link href="../css/utility.css" rel="stylesheet" type="text/css">
+  <link href="../css/base.css" rel="stylesheet" type="text/css">
+  <link href="../css/content.css" rel="stylesheet" type="text/css">
+  <!-- End CSS -->
+  <!-- Start favicon -->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<!-- End favicon -->
 
 <script type='text/javascript'>
 piAId = '983672';
@@ -28,5 +45,294 @@ piHostname = 'www.site.t-rex.cf';
 })();
 </script>
 
-    </body>
+</head>
+
+<body id="p-other-service">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFWG3Z4X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->  <!-- Start wrapper -->
+  <div id="wrapper">
+    <!-- Start header -->
+        <header id="header" class="header">
+      <div class="header__row">
+        <div class="header__left">
+          <!-- Start header logo -->
+          <div class="hlogo">
+            <a href="/" class="hlogo__link e-zoom">
+              <img src="/common_img/h-logo.png" srcset="/common_img/h-logo.png 1x, /common_img/h-logo@2x.png 2x" alt="IR TV" width="98" height="66">
+            </a>
+          </div>
+          <!-- End header logo -->
+        </div>
+        <div class="header__right">
+          <!-- Start header main -->
+          <div class="hmain">
+            <div class="hmain__left">
+              <!-- Start layer -->
+              <div class="layer none">
+                <div class="layer__bg"></div>
+              </div>
+              <!-- End layer -->
+              <!-- Start header nav -->
+              <nav class="hnav">
+                <ul class="hnav__list">
+                  <li class="hnav__item">
+                    <a href="/irtv/" class="hnav__link">
+                      <span class="hnav__text">IRTVとは</span>
+                    </a>
+                  </li>
+                  <li class="hnav__item">
+                    <a href="/other_service/" class="hnav__link">
+                      <span class="hnav__text">その他サービス</span>
+                    </a>
+                  </li>
+                  <li class="hnav__item">
+                    <a href="/price/" class="hnav__link">
+                      <span class="hnav__text">料金プラン</span>
+                    </a>
+                  </li>
+                  <li class="hnav__item">
+                    <a href="/event_case/ca/event" class="hnav__link">
+                      <span class="hnav__text">イベント情報</span>
+                    </a>
+                  </li>
+                  <li class="hnav__item">
+                    <a href="/event_case/ca/case" class="hnav__link">
+                      <span class="hnav__text">導入事例</span>
+                    </a>
+                  </li>
+                  <!-- <li class="hnav__item">
+                    <a href="https://irtv.jp/login" target="_blank" class="hnav__link">
+                      <span class="hnav__text">ログイン</span>
+                    </a>
+                  </li> -->
+                </ul>
+              </nav>
+              <!-- End header nav -->
+            </div>
+            <div class="hmain__right">
+              <!-- Start header button -->
+              <div class="hbtn">
+                <ul class="hbtn__list">
+                  <li class="hbtn__item">
+                    <a href="/document/" class="btn btn-header btn-header--download">
+                      <div class="btn__wrap btn-header__wrap">
+                        <span class="btn__icon btn-header__icon"></span>
+                        <span class="btn__text btn-header__text">資料無料DL</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="hbtn__item">
+                    <a href="/contact/" class="btn btn-header btn-header--mail">
+                      <div class="btn__wrap btn-header__wrap">
+                        <span class="btn__icon btn-header__icon"></span>
+                        <span class="btn__text btn-header__text">お問い合わせ</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="hamburger hide-to-sm">
+                    <div class="hamburger__wrap">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- End header button -->
+            </div>
+          </div>
+          <!-- End header main -->
+        </div>
+      </div>
+    </header>    <!-- End header -->
+    <!-- Start main -->
+    <main id="main" class="main">
+      <!-- Start page visual section -->
+      <section class="pv">
+        <div class="container-sm">
+          <div class="pv__row">
+            <div class="pv__body">
+              <!-- Start box page visual -->
+              <div class="box-pv">
+                <h1 class="title-pv">
+                  <span class="title-pv__lg">document</span>
+                  <span class="title-pv__sm">資料無料DL</span>
+                </h1>
+              </div>
+              <!-- End box page visual -->
+              <!-- Start breadcrumb -->
+              <nav class="breadcrumb" aria-label="breadcrumb">
+                <ul class="breadcrumb__list">
+                  <li class="breadcrumb__item"><a href="../">TOP</a></li>
+                  <li class="breadcrumb__item">資料無料DL</li>
+                </ul>
+              </nav>
+              <!-- End breadcrumb -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End page visual section -->
+      <!-- Start service collaboration -->
+      <section class="top-service c-000000 bg-eaeaea pd-top03 pd-bottom01">
+        <div class="container">
+<iframe src="https://www.site.t-rex.cf/l/982672/2024-08-26/fk6f67" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+        </div>
+      </section>
+      <!-- End service collaboration -->
+          <section class="cm-contact pd-top03 pd-bottom01">
+    <div class="container">
+      <div class="cm-contact__row">
+        <div class="cm-contact__left">
+          <h2 class="title-top title-top--white tt-mg-bottom02">
+            <span class="title-top__lg">Contact</span>
+            <span class="title-top__sm">お問い合わせ</span>
+          </h2>
+          <!-- Start box contact -->
+          <div class="box-contact">
+            <div class="box-contact__left">
+              <div class="box-contact__logo">
+                <img src="/common_img/logo02.png" srcset="/common_img/logo02.png 1x, /common_img/logo02@2x.png 2x" alt="IRTV" width="87" height="58">
+              </div>
+            </div>
+            <div class="box-contact__right">
+              <div class="box-contact__desc">
+                <p>投資家と企業をつなぐ<br>
+                SNS時代のIR動画メディア</p>
+              </div>
+            </div>
+          </div>
+          <!-- End box contact -->
+        </div>
+        <div class="cm-contact__right">
+          <div class="cm-contact__btn">
+            <a href="/document/" class="btn btn-main btn-main--download btn-main--md btn-main--red">
+              <span class="btn__wrap btn-main__wrap">
+                <span class="btn__text btn-main__text">資料無料ダウンロード</span>
+                <span class="btn__icon btn-main__icon btn-main__icon--left"></span>
+              </span>
+            </a>
+            <a href="/contact/" class="btn btn-main btn-main--mail btn-main--md btn-main--light-red">
+              <span class="btn__wrap btn-main__wrap">
+                <span class="btn__text btn-main__text">お問い合わせ</span>
+                <span class="btn__icon btn-main__icon btn-main__icon--left"></span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>      <!-- End common contact section -->
+    </main>
+    <!-- End main -->
+    <!-- Start footer -->
+        <footer id="footer" class="footer bg-000000">
+      <div class="container">
+        <!-- Start footer main -->
+        <div class="fmain">
+          <div class="fmain__left">
+            <h3 class="fmain__title">株式会社IR Robotics</h3>
+            <div class="fmain__desc">
+              <p>〒102-0083<br>東京都千代田区麹町二丁目5番1号<br class="hide-to-sm">WeWork半蔵門PREX South<br>
+                TEL：<a href="tel:0367728482" class="link-sp">03-6772-8482</a></p>
+            </div>
+          </div>
+          <div class="fmain__right">
+            <!-- Start footer nav -->
+            <nav class="fnav">
+              <ul class="fnav__list">
+                <li class="fnav__item">
+                  <a href="/irtv/" class="fnav__link">
+                    <span class="fnav__text">IRTVとは</span>
+                  </a>
+                </li>
+                <li class="fnav__item">
+                  <a href="/other_service/" class="fnav__link">
+                    <span class="fnav__text">その他サービス</span>
+                  </a>
+                </li>
+                <li class="fnav__item">
+                  <a href="/price/" class="fnav__link">
+                    <span class="fnav__text">料金プラン</span>
+                  </a>
+                </li>
+                <li class="fnav__item">
+                  <a href="/event_case/ca/event" class="fnav__link">
+                    <span class="fnav__text">イベント情報</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="fnav__list">
+                <li class="fnav__item">
+                  <a href="/event_case/ca/case/" class="fnav__link">
+                    <span class="fnav__text">導入事例</span>
+                  </a>
+                </li>
+                <li class="fnav__item">
+                  <a href="/contact/" class="fnav__link">
+                    <span class="fnav__text">お問い合わせ</span>
+                  </a>
+                </li>
+                <!-- <li class="fnav__item">
+                  <a href="https://irtv.jp/login" target="_blank" class="fnav__link">
+                    <span class="fnav__text">ログイン</span>
+                  </a>
+                </li> -->
+                <li class="fnav__item">
+                  <a href="https://ir-robotics.co.jp/privacypolicy/" target="_blank" class="fnav__link">
+                    <span class="fnav__text">個人情報保護方針</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!-- End footer nav -->
+          </div>
+        </div>
+        <!-- End footer main -->
+        <!-- Start footer social -->
+        <div class="fsocial">
+          <ul class="fsocial__list">
+            <li class="fsocial__item">
+              <a href="https://twitter.com/irtv2022" target="_blank">
+                <img src="/common_img/icon-twitter-white.png" srcset="/common_img/icon-twitter-white.png 1x, /common_img/icon-twitter-white@2x.png 2x" alt="YouTube" width="31" height="33">
+              </a>
+            </li>
+            <li class="fsocial__item">
+              <a href="https://www.youtube.com/c/IRTVforYouTube" target="_blank">
+                <img src="/common_img/icon-youtube-red02.png" srcset="/common_img/icon-youtube-red02.png 1x, /common_img/icon-youtube-red02@2x.png 2x" alt="YouTube" width="45" height="31">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- End footer social -->
+        <!-- Start footer copy -->
+        <div class="fcopy">
+          <p>Copyright＠ IR robotics All Rights Reserved.</p>
+        </div>
+        <!-- End footer copy -->
+        <!-- Start button to top -->
+        <div id="to-top" class="to-top">
+          <div class="to-top__wrap"></div>
+        </div>
+        <!-- End button to top -->
+      </div>
+    </footer>    <!-- End footer -->
+  </div>
+  <!-- End wrapper -->
+  <!-- Start jQuery -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../js/jquery-3.7.1.min.js"><\/script>')</script>
+  <!-- End jQuery -->
+  <!-- Start check user -->
+  <script src="../js/detect.js"></script>
+  <script src="../js/viewport.js"></script>
+  <!-- End check user -->
+  <script src="../js/common.js"></script>
+  </body>
+
 </html>
+
+
+
