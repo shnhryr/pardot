@@ -1,8 +1,13 @@
-
-
-
-
-
+<html>
+    <head>
+        <base href="" >
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="Pardot Website 検証用"/>
+        <title>3rd_party_tracking_code</title>
+    </head>
+    <body>
+        Hello World：Update 1st_party_tracking_code_campaign_diamond<br /><br /><br />
 
 
 <script type='text/javascript'>
