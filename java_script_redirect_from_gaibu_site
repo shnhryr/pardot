@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriptでリダイレクトする方法</title>
+</head>
+<body>
+    <button id="test1">リダイレクト</button>
+    <script>
+        const BUTTON_CLICK_EVENT= document.getElementById('test1');
+        BUTTON_CLICK_EVENT.addEventListener('click', () => {
+            window.location.href = 'https://blog.future.ad.jp/コピペで使える!javascriptでリダイレクトする方法';
+        });
+    </script>
+</body>
+</html>
