@@ -7,13 +7,13 @@
         <base href="" >
         <meta charset="utf-8"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="description" content="heroku サイト　Title タグあり　ページ遷移スクリプトあり"/>
+        <meta name="description" content="heroku サイト　Title タグあり　ページ遷移スクリプトあり　refresh"/>
         <title>heroku サイト　Title タグあり　ページ遷移スクリプトあり</title>
 
         
     </head>
     <body>
-        Hello World：heroku サイト　Title タグあり　ページ遷移スクリプトあり　1st_party_tracking_code_www.site.t-rex.cf_with_title_tag<br /><br /><br />
+        Hello World：heroku サイト　Title タグあり　ページ遷移スクリプトあり　1st_party_tracking_code_www.site.t-rex.cf_with_title_tag_refresh<br /><br /><br />
 <script type='text/javascript'>
 piAId = '983672';
 piCId = '';
