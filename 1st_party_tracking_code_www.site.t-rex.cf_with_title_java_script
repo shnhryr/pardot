@@ -7,31 +7,9 @@
         <meta name="description" content="heroku サイト　Title タグあり　ページ遷移スクリプトあり"/>
         <title>heroku サイト　Title タグあり　ページ遷移スクリプトあり　JavaScript で遷移</title>
 
-<
-script type
-=
-"text/JavaScript"
->
-setTimeout
-(
-"link()"
-,
- 
-0
-);
-function
- link
-(){
- location
-.
-href
-=
-'https://heroku.t-rex.cf/www.site.t-rex.cf_tracking_code'
-;
-}
-</
-script
->
+<script> window.location.href = ‘https://heroku.t-rex.cf/www.site.t-rex.cf_tracking_code’; </script>」
+
+
         
     </head>
     <body>
