@@ -1,10 +1,9 @@
 <html>
     <head>
 
-setTimeout("redirect()", 0);
-function redirect(){
-    location.href="https://heroku.t-rex.cf/www.site.t-rex.cf_tracking_code";
-}
+<script>
+      window.location.href('https://heroku.t-rex.cf/www.site.t-rex.cf_tracking_code')
+    </script>
 
         <base href="" >
         <meta charset="utf-8"/>
