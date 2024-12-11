@@ -6,14 +6,14 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="description" content="heroku サイト　Title タグあり　ページ遷移スクリプトあり"/>
         <title>heroku サイト　Title タグあり　ページ遷移スクリプトあり　JavaScript で遷移</title>
-
-<script> window.location.href = ‘https://heroku.t-rex.cf/www.site.t-rex.cf_tracking_code’; </script>
-
-
         
     </head>
     <body>
         Hello World：heroku サイト　Title タグあり　ページ遷移スクリプトあり　JavaScript で遷移　1st_party_tracking_code_www.site.t-rex.cf_with_title_java_script<br /><br /><br />
+
+<script> window.location.href = ‘https://heroku.t-rex.cf/www.site.t-rex.cf_tracking_code’; </script>
+
+
 <script type='text/javascript'>
 piAId = '983672';
 piCId = '';
