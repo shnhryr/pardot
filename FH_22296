@@ -1,0 +1,53 @@
+<form action="https://pardot.t-rex.cf/l/982672/2023-01-17/fbrpmk" method="post">
+<div class="container">
+
+<div class="head">
+
+<h2>Say Hello　https://pi.pardot.com/prospectFieldCustom/read/id/22296?aid=982672</h2>
+
+</div>
+
+<input type="text" name="lastname" placeholder="Last Name" /><br />
+
+<input type="text" name="firstname" placeholder="First Name" /><br />
+
+<input type="tel" name="phone" placeholder="phone" /><br />
+
+<input type="email" name="email" placeholder="Email" required="required" /><br />
+
+<input type="text" name="company" placeholder="Company" /><br />
+
+
+
+
+
+<input type="radio" name="参加希望日（4月28日） " value="4月28日"><label>4月28日</label>
+
+<input type="radio" name="参加希望日（4月28日） " value="5月10日" checked><label>5月10日</label>
+
+<input type="radio" name="参加希望日（4月28日） " value="3" checked><label>check3</label>
+
+
+<input type="checkbox" name="CustomObject1712928697692" value="★" checked><label>★</label>
+<input type="checkbox" name="CustomObject1712928697692" value="→" checked><label>→</label>
+<input type="checkbox" name="CustomObject1712928697692" value="?" checked><label>?</label>
+
+
+
+<textarea type="textarea" name="message" placeholder="Message"></textarea><br />
+
+<input type="datetime-local" name="dateandtime1" placeholder="リード：日付/日時１"></textarea><br />
+
+<input type="datetime-local" name="dateandtime2" placeholder="リード：日付/日時２"></textarea><br />
+
+<div class="message">Message Sent</div>
+
+<button id="submit" type="submit">
+
+Send!
+
+</button>
+
+</div>
+
+</form>
