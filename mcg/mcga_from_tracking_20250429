@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <base href="" >
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="1st_party_tracking_code_campaign_harujion"/>
+        <title>3rd_party_tracking_code</title>
+    </head>
+    <body>
+       mcg/a_from_tracking_20250429<br /><br /><br />
+　　　　　https://storm-e7c26d5be24223.lightning.force.com/lightning/r/ManagedContent/20YKY000000bhCq2AI/view <br />
+
+
+
+<!-- これらのコードスニペットを下記の順で外部サイトページに挿入してください。 -->
+<!-- これらの <script> タグは組み込まれたフォームのすぐ上に挿入してください。 -->
+<script async="async" src="https://storm-e7c26d5be24223.my.site.com/lp/assets/scripts/external-forms-host.min.js"></script>
+<script async="async" src="https://storm-e7c26d5be24223.my.site.com/lp/assets/lightning_out_embed/prod/en-US/MCRMLCCRERKFDKFPP544DZMG6HTY.js" onload="window.sfdc_forms?sfdc_forms.init():window.sfdc_forms={loReady:!0}"></script>
+<!-- このタグにはフォームが含まれています。フォームを配置するページに追加してください。 -->
+<fragment-z4vjb6p929xstrb99ghmpzc8cvht27e0dki6oxuaa8p title="Marketing Form" id="container" data-external-form="true" data-recaptcha-site-key="" data-web-tracking="true"></fragment-z4vjb6p929xstrb99ghmpzc8cvht27e0dki6oxuaa8p>
+
+
+
+
+    </body>
+</html>
