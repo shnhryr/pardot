@@ -19,6 +19,7 @@
 <!-- このタグにはフォームが含まれています。フォームを配置するページに追加してください。 -->
 <fragment-z4vjb6p929xstrb99ghmpzc8cvht27e0dki6oxuaa8p title="Marketing Form" id="container" data-external-form="true" data-recaptcha-site-key="" data-web-tracking="true"></fragment-z4vjb6p929xstrb99ghmpzc8cvht27e0dki6oxuaa8p>
 
+<script src="https://cdn.c360a.salesforce.com/beacon/c360a/99484712-e26e-413f-8e92-bc3786b57365/scripts/c360a.min.js"></script>
 
 
 
