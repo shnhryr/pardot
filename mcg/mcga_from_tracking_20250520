@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <base href="" >
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="1st_party_tracking_code_campaign_harujion"/>
+        <title>mcga_from_tracking_20250520</title>
+    </head>
+    <body>
+       mcga_from_tracking_20250520<br />
+　　　　20250520　コンテンツタブからフォーム作成<br />
+　　　　　https://storm-e7c26d5be24223.lightning.force.com/lightning/r/ManagedContent/20YKY00000175ed2AA/view?navigationLocation=content_page <br />
+
+<!-- これらのコードスニペットを下記の順で外部サイトページに挿入してください。 -->
+<!-- これらの <script> タグは組み込まれたフォームのすぐ上に挿入してください。 -->
+<script async="async" src="https://storm-e7c26d5be24223.my.site.com/lp/assets/scripts/external-forms-host.min.js"></script>
+<script async="async" src="https://storm-e7c26d5be24223.my.site.com/lp/assets/lightning_out_embed/prod/en-US/MCB2BPIAENABCG7J4MW6YJASBJRA.js" onload="window.sfdc_forms?sfdc_forms.init():window.sfdc_forms={loReady:!0}"></script>
+<!-- このタグにはフォームが含まれています。フォームを配置するページに追加してください。 -->
+<fragment-z4ve3h8d4ldxoi5pq1xkwps3n3q1k7nwk8iblcsp8ap title="Marketing Form" id="container" data-recaptcha-site-key="" data-web-tracking="true" data-external-form="true"></fragment-z4ve3h8d4ldxoi5pq1xkwps3n3q1k7nwk8iblcsp8ap>
+
+<script src="https://cdn.c360a.salesforce.com/beacon/c360a/99484712-e26e-413f-8e92-bc3786b57365/scripts/c360a.min.js"></script>
+
+
+
+    </body>
+</html>
