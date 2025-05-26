@@ -10,6 +10,8 @@
     <body>
         1st_party_tracking_code_velociraptor.cf_campaign_16<br /><br /><br />
 
+<button onclick="location.href='https://heroku.velociraptor.cf/1st_party_tracking_code_velociraptor.cf_campaign_16_iframe_parameter
+'">ボタン</button>
 
 
 <script type='text/javascript'>
