@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <base href="" >
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="1st_party_tracking_code_velociraptor.cf_campaign_16_iframe_parameter"/>
+        <title>1st_party_tracking_code_velociraptor.cf_campaign_16_iframe_parameter</title>
+    </head>
+    <body>
+        1st_party_tracking_code_velociraptor.cf_campaign_16_iframe_parameter<br /><br /><br />
+
+iframe設置箇所<br />
+<iframe src="https://pardot.velociraptor.cf/l/982672/2025-05-26/fmry65" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe> <br /><br />
+
+<noscript>
+ <iframe src="PARDOT_FORM_URL" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+</noscript>
+
+<script type="text/javascript">
+ var form = 'https://pardot.velociraptor.cf/l/982672/2025-05-26/fmry65';
+ var params = window.location.search;
+ var thisScript = document.scripts[document.scripts.length - 1];
+ var iframe = document.createElement('iframe');
+
+ iframe.setAttribute('src', form + params);
+ iframe.setAttribute('width', '100%');
+ iframe.setAttribute('height', 500);
+ iframe.setAttribute('type', 'text/html');
+ iframe.setAttribute('frameborder', 0);
+ iframe.setAttribute('allowTransparency', 'true');
+ iframe.style.border = '0';
+
+ thisScript.parentElement.replaceChild(iframe, thisScript);
+</script>
+
+
+<script type='text/javascript'>
+piAId = '983672';
+piCId = '97967';
+piHostname = 'pardot.velociraptor.cf';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+
+
+    </body>
+</html>
