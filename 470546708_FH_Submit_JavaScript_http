@@ -318,7 +318,7 @@
 
     </form>
 
-    <script src="js/fh_test_2.js"></script>
+    <script src="FH_JS_HTTP.js"></script>
 
 
     <!-- POST用JS
