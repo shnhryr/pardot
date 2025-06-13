@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--テスト用
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://login.salesforce.com/icons/ https://pi.pardot.com/pd.js;">
+-->
+    <!-- フォームハンドラー用　-->
+
+    <style type="text/css">
+        body {
+            padding-top: 25px;
+            background-color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+            background-color: #cedfd000;
+        }
+
+        .head {
+            -webkit-border-radius: 6px 6px 0px 0px;
+            -moz-border-radius: 6px 6px 0px 0px;
+            border-radius: 6px 6px 0px 0px;
+            background-color: #25c5ba;
+            color: #FAFAFA;
+        }
+
+        h2 {
+            text-align: center;
+            padding: 18px 0 18px 0;
+            font-size: 1.4em;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+        input:first-of-type {
+            margin-top: 35px;
+        }
+
+        input,
+        textarea {
+            font-size: 1em;
+            padding: 15px 10px 10px;
+            font-family: 'Source Sans Pro', arial, sans-serif;
+            border: 1px solid #cecece;
+            background: #261b1b;
+            color: #FAFAFA;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        ::-webkit-input-placeholder {
+            color: #FAFAFA;
+        }
+
+        :-moz-placeholder {
+            color: #FAFAFA;
+        }
+
+        ::-moz-placeholder {
+            color: #FAFAFA;
+        }
+
+        :-ms-input-placeholder {
+            color: #FAFAFA;
+        }
+
+        button {
+            margin-top: 15px;
+            margin-bottom: 25px;
+            background-color: #2ABCA7;
+            padding: 12px 45px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            border-radius: 5px;
+            border: 1px solid #2ABCA7;
+            -webkit-transition: .5s;
+            transition: .5s;
+            display: inline-block;
+            cursor: pointer;
+            width: 30%;
+            color: #fff;
+        }
+
+        button:hover,
+        .button:hover {
+            background: #19a08c;
+        }
+
+        label.error {
+            font-family: 'Source Sans Pro', arial, sans-serif;
+            font-size: 1em;
+            display: block;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #d89c9c;
+            width: 80%;
+            margin: auto;
+            color: #FAFAFA;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+        }
+
+        /* media queries */
+        @media (max-width: 700px) {
+            label.error {
+                width: 90%;
+            }
+
+            input,
+            textarea {
+                width: 90%;
+            }
+
+            button {
+                width: 90%;
+            }
+
+            body {
+                padding-top: 10px;
+            }
+        }
+
+        .message {
+            font-family: 'Source Sans Pro', arial, sans-serif;
+            font-size: 1.1em;
+            display: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #2ABCA7;
+            width: 80%;
+            margin: auto;
+            color: #FAFAFA;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+        }
+    </style>
+
+    <script>
+        // When the browser is ready...
+        $(function () {
+            // validate
+            $("#contact").validate({
+                // Set the validation rules
+                rules: {
+                    name: "required",
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    message: "required",
+                },
+                // Specify the validation error messages
+                messages: {
+                    name: "Please enter your name",
+                    email: "Please enter a valid email address",
+                    message: "Please enter a message",
+                },
+                // submit handler
+                submitHandler: function (form) {
+                    //form.submit();
+                    $(".message").show();
+                    $(".message").fadeOut(4500);
+                }
+            });
+        });
+    </script>
+    <!-- フォームハンドラー用　-->
+
+    <!-- Google tag (gtag.js) 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EG7VTFXY21"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-EG7VTFXY21');
+    </script>
+-->
+
+    <!-- go.pardot trackeing -->
+    <script type='text/javascript'>
+        piAId = '1019072';
+        piCId = '';
+        piHostname = 'ttsujipardottd.jp-edi.page';
+
+        (function () {
+            function async_load() {
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if (window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+
+    </script>
+    <!-- go.pardot trackeing -->
+
+
+    <!-- UTM 取得-->
+    <script>
+        // URLからUTMパラメータを取得する関数
+        function getUTMParameter(parameterName) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(parameterName) || "";
+        }
+
+        // input要素のvalue属性にUTMパラメータを設定する関数
+        function setUTMValues() {
+            document.getElementById("utm_source").value = getUTMParameter("utm_source");
+            //document.getElementById("utm-medium").value = getUTMParameter("utm_medium");
+            //document.getElementById("utm-campaign").value = getUTMParameter("utm_campaign");
+            // 他のUTMパラメータも同様に設定
+        }
+
+        // ページが読み込まれたときにUTMパラメータを設定
+        window.onload = setUTMValues;
+    </script>
+
+
+    <title>Form Handler TEST1</title>
+</head>
+
+<body>
+    <!-- 検証設定 TJweb用FHtest1-->
+     <form >
+        <!--<form action="https://www.site.t-rex.cf/l/982672/2025-06-12/fmynwv" method="post"> -->
+        <!-- <form action="/badpost" method="post" id="postForm" onsubmit="return validateform()" enctype="application/x-www-form-urlencoded"> -->
+
+        <div class="container">
+            <div class="head">
+                <h2>Form Handler TEST</h2>
+            </div>
+
+            カスタム項目のutm_sourceはUTMパラメータで付与して入れる　→　非表示項目：utm_source
+
+            <!-- test -->
+            <script>
+                var ref = document.referrer;
+            </script>
+
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name" /><br />
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" /><br />
+            <input type="email" id="email" name="email" placeholder="Email" required="required" /><br />
+            <input type="text" name="company" placeholder="Company" /><br />
+            <textarea type="textarea" name="message" placeholder="Message"></textarea><br />
+            <textarea type="textarea" name="comments" placeholder="comments"></textarea><br />
+            <input type="text" name="subject" value="" placeholder="subject" /><br />
+            <input type="text" name="entry.1825155396" placeholder="テキスト１" /><br />
+
+            <input type="text" name="City" placeholder="City" /><br />
+
+            <input type="text" name="multi1" value="" placeholder="複数の応答ONのテキスト型"><br />
+
+            <input type="checkbox" name="multi2" value="TEST1">TEST1
+            <input type="checkbox" name="multi2" value="TEST２">TEST2
+            <input type="checkbox" name="multi2" value="TEST３">TEST3
+
+            <input type="hidden" name="hidden_field" value=ref /><br />
+
+            <select name="LeadRecordType">
+                <option value="リードレコードタイプ01">リードレコードタイプ01</option>
+                <option value="LeadRecordType02">LeadRecordType02</option>
+            </select>
+
+            <!-- test -->
+            <input type="checkbox" name="sports" value="野球">野球
+            <input type="checkbox" name="sports" value="サッカー">サッカー
+            <input type="checkbox" name="sports" value="バスケットボール">バスケットボール
+            <!-- test -->
+
+            <input type="hidden" id="utm_source" name="utm_source" value="" /><br />
+
+            <input type="text" name="testCheckBox" placeholder="testCheckBox" /><br />
+            <input type="text" name="testcheck" placeholder="testcheck" /><br />
+
+
+            <br>
+
+            <!-- dynamic contents-->
+            <script type="text/javascript" src="https://go.pardot.com/dcjs/1018072/385/dc.js"></script>
+
+            <br>
+
+            <div class="message">Message Sent</div>
+
+            <button id="postButton" type="button">JS送信</button>
+        </div>
+
+        <!-- https://help.salesforce.com/s/articleView?id=sf.pardot_forms_add_honeypot.htm&type=5 -->
+        <!-- ハニーポット　-->
+        <!-- 値が入っているとプロスペクト登録されない、レスポンスは200 -->
+        <div style="position:absolute; left:-9999px; top: -9999px;">
+            <label for="pardot_extra_field">Comments</label>
+            <input type="text" id="pardot_extra_field" name="pardot_extra_field">
+        </div>
+
+
+    </form>
+
+    <script src="js/fh_test_2.js"></script>
+
+
+    <!-- POST用JS
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="fhpost1.js"></script>
+-->
+
+</body>
+
+</html>
