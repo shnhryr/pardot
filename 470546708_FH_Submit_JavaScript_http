@@ -210,23 +210,11 @@
 -->
 
     <!-- go.pardot trackeing -->
-    <script type='text/javascript'>
-        piAId = '1019072';
-        piCId = '';
-        piHostname = 'ttsujipardottd.jp-edi.page';
 
-        (function () {
-            function async_load() {
-                var s = document.createElement('script'); s.type = 'text/javascript';
-                s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
-                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
-            }
-            if (window.attachEvent) { window.attachEvent('onload', async_load); }
-            else { window.addEventListener('load', async_load, false); }
-        })();
 
-    </script>
-    <!-- go.pardot trackeing -->
+
+
+<!-- go.pardot trackeing -->
 
 
     <!-- UTM 取得-->
