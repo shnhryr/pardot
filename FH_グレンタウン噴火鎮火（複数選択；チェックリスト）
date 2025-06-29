@@ -1,0 +1,91 @@
+
+
+<!-- FH -->
+
+<!-- https://pi.pardot.com/formHandler/read/id/6340?aid=982672 -->
+
+<!-- コード： -->
+
+<form action="https://pardot.velociraptor.cf/l/982672/2022-06-30/cyrp3k" method="post"><div class="container">
+
+<div class="head">
+
+<h2>Say Hello</h2>
+
+</div>
+
+<input type="email" name="email " placeholder="Email" required="required" /><br />
+
+<input type="text" name="lastname" placeholder="名字" /><br />
+
+<input type="text" name="phone" placeholder="お名前" /><br />
+
+<input type="text" name="subject" placeholder="カスタム項目: プロスペクト項目：テキスト１（取引先責任者）" /><br />
+
+<input type="text" name="Company" placeholder="Company" /><br />
+
+<input type="text" name="00N5j00000Hr1I4 " placeholder="プロスペクト項目：テキスト１（リード）" /><br />
+
+<input type="text" name="description" placeholder="プロスペクト項目：テキスト３（リード）" /><br />
+
+<input type="text" name="optedout " placeholder="optedout " /><br />
+
+<input type="text" name="firstname" placeholder="firstname" /><br />
+
+<input type="text" name="description" placeholder="プロスペクト項目：テキスト３（リード）" /><br />
+
+<input type="text" name="lastname" placeholder="お名前" /><br />
+
+<label><input class="radio-fos" type="radio" value="4月28日" name="radiobutton1"><span>4月28日</span></label>
+
+<label><input class="radio-fos" type="radio" value="5月10日" name="radiobutton1"><span>5月10日</span></label>
+
+<label><input class="radio-fos" type="radio" value="3" name="radiobutton1"><span>3</span></label>
+
+<label><input class="radio-fos" type="radio" value="その他" name="subject"><span>その他</span></label>
+
+
+
+ケース：複数選択１:<select id="check7" multiple="multiple" name="check7" title="ケース：複数選択１"><option value="123">123</option>
+
+<option value="456">456</option>
+
+<option value="789">789</option>
+
+<option value="101">101</option>
+
+<option value="iii">iii</option>
+
+<option value="nnn">nnn</option>
+
+<option value="sss">sss</option>
+
+<option value="yyy">yyy</option>
+
+<option value="ggg">ggg</option>
+
+<option value="いいい">いいい</option>
+
+<option value="ろろろ">ろろろ</option>
+
+<option value="ははは">ははは</option>
+
+<option value="ににに">ににに</option>
+
+<option value="ほほほ">ほほほ</option>
+
+</select><br>
+
+
+
+<div class="message">Message Sent</div>
+
+<button id="submit" type="submit">
+
+Send!
+
+</button>
+
+</div>
+
+</form>
