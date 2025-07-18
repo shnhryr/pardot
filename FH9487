@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="
+  width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style5.css">
+
+  <style type="text/css">
+body {
+  padding-top:25px;
+  background-color:#454545;
+  margin-left:10px;
+  margin-right:10px;
+}
+.container {
+  max-width:600px;
+  margin:0 auto;
+  text-align:center;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  background-color:#FAFAFA;
+}
+.head {
+  -webkit-border-radius:6px 6px 0px 0px;
+  -moz-border-radius:6px 6px 0px 0px;
+  border-radius:6px 6px 0px 0px;
+  background-color:#2ABCA7;
+  color:#FAFAFA;
+}
+h2 {
+  text-align:center;
+  padding:18px 0 18px 0;
+  font-size: 1.4em;
+}
+input {
+  margin-bottom:10px;
+}
+textarea {
+  height:100px;
+  margin-bottom:10px;
+}
+input:first-of-type
+{
+  margin-top:35px;
+}
+input, textarea {
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  font-family: 'Source Sans Pro',arial,sans-serif;
+  border: 1px solid #cecece;
+  background: #d7d7d7;
+  color:#FAFAFA;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+}
+::-webkit-input-placeholder {
+   color: #FAFAFA;
+}
+:-moz-placeholder {
+   color: #FAFAFA;  
+}
+::-moz-placeholder {
+   color: #FAFAFA; 
+}
+:-ms-input-placeholder {  
+   color: #FAFAFA;  
+}
+button {
+  margin-top:15px;
+  margin-bottom:25px;
+  background-color:#2ABCA7;
+  padding: 12px 45px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #2ABCA7;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  width:30%;
+  color:#fff;
+}
+button:hover, .button:hover {
+  background:#19a08c;
+}
+label.error {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1em;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#d89c9c;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+/* media queries */
+@media (max-width: 700px) {
+  label.error {
+    width: 90%;
+  }
+  input, textarea {
+    width: 90%;
+  }
+  button {
+    width:90%;
+  }
+  body {
+  padding-top:10px;
+  }  
+}
+.message {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1.1em;
+    display:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#2ABCA7;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+    </style>
+
+<script>
+// When the browser is ready...
+$(function() {
+    // validate
+    $("#contact").validate({
+        // Set the validation rules
+        rules: {
+            name: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            message: "required",
+        },
+        // Specify the validation error messages
+        messages: {
+            name: "Please enter your name",
+            email: "Please enter a valid email address",
+            message: "Please enter a message",
+        },
+        // submit handler
+        submitHandler: function(form) {
+          //form.submit();
+           $(".message").show();
+           $(".message").fadeOut(4500);
+        }
+    });
+  });
+</script>
+
+</head>
+
+    <body>
+
+<form action="https://www.site.t-rex.cf/l/982672/2025-07-17/fn87tg" method="post">
+<div class="container">
+
+<div class="head">
+
+<h2>Say Hello　https://pi.pardot.com/prospectFieldCustom/read/id/22296?aid=982672</h2>
+
+</div>
+
+<input type="text" name="lastname" placeholder="Last Name" /><br />
+
+<input type="text" name="firstname" placeholder="First Name" /><br />
+
+<input type="tel" name="phone" placeholder="phone" /><br />
+
+<input type="email" name="email" placeholder="Email" required="required" /><br />
+
+<input type="text" name="company" placeholder="Company" /><br />
+
+
+
+
+
+<input type="radio" name="参加希望日（4月28日） " value="4月28日"><label>4月28日</label>
+
+<input type="radio" name="参加希望日（4月28日） " value="5月10日" checked><label>5月10日</label>
+
+<input type="radio" name="参加希望日（4月28日） " value="3" checked><label>check3</label>
+
+
+<input type="checkbox" name="CustomObject1712928697692" value="★" checked><label>★</label>
+<input type="checkbox" name="CustomObject1712928697692" value="→" checked><label>→</label>
+<input type="checkbox" name="CustomObject1712928697692" value="?" checked><label>?</label>
+
+
+
+<textarea type="textarea" name="message" placeholder="Message"></textarea><br />
+
+<input type="datetime-local" name="dateandtime1" placeholder="リード：日付/日時１"></textarea><br />
+
+<input type="datetime-local" name="dateandtime2" placeholder="リード：日付/日時２"></textarea><br />
+
+<div class="message">Message Sent</div>
+
+<button id="submit" type="submit">
+
+Send!
+
+</button>
+
+
+</form>
+</div>
+
+
+    </body>
+</html>
