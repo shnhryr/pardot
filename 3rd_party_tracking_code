@@ -13,6 +13,8 @@
 
 
 
+<!--
+
 <script type='text/javascript'>
 piAId = '983672';
 piCId = '';
@@ -29,9 +31,9 @@ piHostname = 'www.site.t-rex.cf';
 })();
 </script>
 
+-->
 
 
-<!--
 
 
 <script type="text/javascript">
@@ -51,7 +53,6 @@ piHostname = 'pi.pardot.com';
 </script>
 
 
--->
 
 
     </body>
