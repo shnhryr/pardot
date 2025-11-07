@@ -1,0 +1,27 @@
+<html>
+<head>
+
+<title> MCGA トラッキングコード設置ページ Winter'26 外部トラッキング　ウェブコネクターアップデート後 </title>
+
+
+</head>
+
+    <body>
+
+<script src="https://cdn.c360a.salesforce.com/beacon/c360a/99484712-e26e-413f-8e92-bc3786b57365/scripts/c360a.min.js?wtcp_id=1NDKY000000CklC4AS"></script>
+
+
+トラッキングコード設置ページ Winter'26 外部トラッキング　ウェブコネクターアップデート後
+
+
+Web サイトおよびモバイルアプリケーション | Salesforce
+https://storm-e7c26d5be24223.my.salesforce-setup.com/lightning/setup/StreamingAppSetup/X99484712_e26e_413f_8e92_bc3786b57365/view
+
+スクリプトをソースコードに追加
+データ収集を有効にする最初のステップとして、このスクリプトタグを Web サイトに組み込みます。
+
+
+
+
+    </body>
+</html>
