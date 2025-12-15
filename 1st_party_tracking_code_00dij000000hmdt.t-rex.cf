@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <base href="" >
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="1st_party_tracking_code_1110553_00dij000000hmdt.t-rex.cf"/>
+        <title>1st_party_tracking_code_1110553_00dij000000hmdt.t-rex.cf</title>
+    </head>
+    <body>
+        1st_party_tracking_code_1110553_00dij000000hmdt.t-rex.cf<br /><br /><br />
+
+         <a href="　"></a>
+
+<script type='text/javascript'>
+piAId = '1111553';
+piCId = '';
+piHostname = '00dij000000hmdt.t-rex.cf';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+    </body>
+</html>
