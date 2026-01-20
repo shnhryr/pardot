@@ -182,8 +182,8 @@ $(function() {
     </div>
 
     <input  type="email" name="email" placeholder="email" required="required" /><br />
-    <input type="text" name="last" placeholder="last_name" /><br />
-    <input type="text" name="first" placeholder="first_Name" /><br />
+    <input type="text" name="last_name" placeholder="last_name" /><br />
+    <input type="text" name="first_name" placeholder="first_Name" /><br />
     <input type="text" name="kaisya" placeholder="company_Name" /><br />
 
     <button id="submit" type="submit">
