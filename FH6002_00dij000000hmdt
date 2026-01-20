@@ -1,5 +1,11 @@
+FH:Free Trial Signup
 
-<!DOCTYPE html>
+https://yurishinoh-220221-597-demo.lightning.force.com/lightning/page/pardot/form%252Fforms?pardot__path=%2FformHandler%2Fread%2Fid%2F1150%3FrAndOmiZer%3D0.8126444210171382
+
+FHコード：
+<form action="http://www3.lenoxsoft.com/l/372783/2022-02-22/j42x7" method="post">
+
+
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -173,41 +179,25 @@ $(function() {
 </script>
 
 </head>
+<body>
 
-    <body>
+<form action="https://00dij000000hmdt.t-rex.cf/l/1110553/2025-11-29/3p6jqh" method="post">
+  <div class="container">
+    <div class="head">
+      <h2>Say Hello</h2>
+    </div>
 
-<form action="https://00dij000000hmdt.t-rex.cf/l/1110553/2025-11-29/3p6jqh" method="post"><div class="container">
+    <input  type="email" name="email" placeholder="email" required="required" /><br />
+    <input type="text" name="last" placeholder="last_name" /><br />
+    <input type="text" name="first" placeholder="first_Name" /><br />
+    <input type="text" name="kaisya" placeholder="company_Name" /><br />
 
-<div class="head">
-
-<h2>　FH6002_00dij000000hmdt　</h2>
-
-</div>
-
-<input type="text" name="lastname" placeholder="Last Name" /><br />
-
-<input type="text" name="firstname" placeholder="First Name" /><br />
-
-<input type="email" name="email" placeholder="Email" required="required" /><br />
-
-<input type="text" name="company" placeholder="Company" /><br />
-
-
-
-
-
-<div class="message">Message Sent</div>
-
-<button id="submit" type="submit">
-
-Send!
-
-</button>
-
-
+    <button id="submit" type="submit">
+      Send!
+    </button>
+  </div>
 </form>
-</div>
-
-
-    </body>
+  </div>
+</body>
 </html>
+
