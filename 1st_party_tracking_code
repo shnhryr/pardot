@@ -11,6 +11,17 @@
 
          <a href="https://site.t-rex.cf/1st_party_tracking_code_iframe_form">https://site.t-rex.cf/1st_party_tracking_code_iframe_form</a>
 
+Google Analytics
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B7QBF9SMDJ"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-B7QBF9SMDJ');
+</script>
+
 <script type='text/javascript'>
 piAId = '983672';
 piCId = '';
